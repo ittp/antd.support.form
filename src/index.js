@@ -3,15 +3,17 @@ import ReactDOM from "react-dom";
 import { Form, Button } from "antd";
 import FormBuilder from "antd-form-builder";
 
-import "antd/dist/antd.css";
+// import "~antd/dist/antd.css";
 import "./styles.css";
 
 const meta = {
   fields: [
     { key: "username", label: "Имя" },
-    { key: "password", label: "Пароль", widget: "password" }
-  ]
+    { key: "password", label: "Пароль", widget: "password" },
+  ],
 };
+
+let TypesSelect = {};
 
 export class TicketForm extends React.Component {
   handleSubmit = (event) => {

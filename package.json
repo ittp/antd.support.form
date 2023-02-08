@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "dependencies": {
     "antd": "5.2.0",
-    "antd-form-builder": "2.1.4",
+    "antd-data-table": "^1.0.1",
+    "antd-form-builder": "^2.1.4",
     "axos": "0.0.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
